@@ -1,0 +1,4 @@
+{
+    "source/index.html": ".",
+    "source/js/*.js": "."
+}

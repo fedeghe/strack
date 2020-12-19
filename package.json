@@ -1,0 +1,16 @@
+{
+  "name": "strack",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fedeghe/strack.git",
+  "author": "fedeghe <fedeghe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "buildev": "malta source/buildev.json",
+      "serve": "open index.html",
+      "build": ""
+  },
+  "devDependencies": {
+    "malta": "^4.1.28"
+  }
+}
