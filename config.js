@@ -1,3 +1,6 @@
 var strackConfig = {
-    track: 'all'
+    track: 'all',
+    endpoint: {
+        url: 'http://trackme.loc'
+    }
 }
