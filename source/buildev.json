@@ -1,4 +1,4 @@
 {
-    "source/index.html": ".",
+    "source/*.html": ".",
     "source/js/*.js": "."
 }

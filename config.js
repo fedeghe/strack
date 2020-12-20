@@ -1,0 +1,3 @@
+var strackConfig = {
+    track: 'all'
+}
