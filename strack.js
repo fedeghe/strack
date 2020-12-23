@@ -21,6 +21,7 @@
 (function (config) {
 
     var body = document.body,
+        capture = {capture: true},
         mustTrack = function (e) {
             return e.target !== body
         },
@@ -50,7 +51,7 @@
                             outerHeight: window.outerHeight
                         },
                         page: {
-                            location: window.location.pathname,
+                            pathname: window.location.pathname,
                             href: window.location.href,
                             search: window.location.search,
                             origin: window.location.origin,
@@ -90,10 +91,10 @@
 
     document.body.addEventListener('click', function (e) {
         mustTrack(e) && add(e)
-    }, {capture: true})
+    }, capture)
     document.body.addEventListener('mouseover', function (e) {
         mustTrack(e) && add(e)
-    }, {capture: true})
+    }, capture)
 
 
     window.onbeforeunload = function (e) {
